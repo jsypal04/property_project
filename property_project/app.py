@@ -1,7 +1,7 @@
 import tkinter as tk
 import sqlite3
 import predictor
-from database import get_data, update_db, util
+from database import get_data, util
 
 def block(base):
     con = sqlite3.connect('database/properties.db')
